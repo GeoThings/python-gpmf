@@ -25,6 +25,7 @@ TYPES = construct.Enum(
     utcdate=ord(b'U'),
     complex=ord(b'?'),
     nested=0x0,
+    unknown=0xfe
 )
 
 FOURCC = construct.Struct(
