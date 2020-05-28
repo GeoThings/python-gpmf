@@ -13,6 +13,6 @@ setup(
     long_description=open('README.md').read(),
     description='GoPro Metadata Format parser',
     #install_requires=open(os.path.join(os.path.dirname(__file__), 'requirements.txt'), 'rt').readlines(),
-    install_requires=['construct==2.8.12', 'python-dateutil<2.9.0', 'hachoir==3.1.1'],
+    install_requires=['construct<3.0.0', 'python-dateutil<2.9.0', 'hachoir<4.0.0'],
     url='https://github.com/rambo/python-gpmf',
 )
